@@ -1,0 +1,10 @@
+---
+applications:
+- name: nginx-test-2
+  disk_quota: 512M
+  instances: 1
+  memory: 512M
+  random-route: true
+  buildpacks: 
+   - nginx_buildpack
+  
