@@ -1,0 +1,22 @@
+{
+  "name": "a-simple-react-router-v4-tutorial",
+  "version": "0.0.55",
+  "description": "https://blog.pshrmn.com/entry/simple-react-router-v4-tutorial/",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "react-router-dom": "4.1.1",
+    "react-dom": "15.5.3",
+    "react": "15.5.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build2": "react-scripts build && rm -rf ../public/test1 && mv build ../public/test1 && cd .. && cf push",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
